@@ -1,0 +1,24 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore log files
+*.log
+
+# Ignore TileDB array and VCF temp storage
+notebooks/temp_array_storage/*
+notebooks/temp_VCF_exports/*
+
+# Ignore bcf indices
+*.bcf.csi
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
