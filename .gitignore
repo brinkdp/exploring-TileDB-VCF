@@ -16,8 +16,9 @@ env/
 notebooks/temp_array_storage/*
 notebooks/temp_VCF_exports/*
 
-# Ignore bcf indices
-*.bcf.csi
+# Ignore vcf, bcf, and their indices
+*.vcf*
+*.bcf*
 
 # Ignore OS-specific files
 .DS_Store
